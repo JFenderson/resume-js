@@ -108,9 +108,9 @@ P.S. One of those skills is not true
 const name = 'Joseph Fenderson';
 console.log(name.toUpperCase())
 
-console.log('Career: Full Stack Engineer / Instructor')
+console.log('Career: Web Development Student')
 
-console.log('Description: I like turtles')
+console.log('Description: I am from Montgomery, recieved my degree in Business Administration from Miles College. I am married with children and plan on completing the program to go on and do great things in IT.')
 
 function displayPosition(name, title, description) {
     console.log(
@@ -119,16 +119,18 @@ function displayPosition(name, title, description) {
     );
 }
 
-displayPosition('playti','software engineer','hdiohdio');
+displayPosition('Sheraton Birmingham Hotel','Accounts Recievable Agent','process invoices from groups,process commission and rebates, collect money due to the hotel from individual guests and groups');
+displayPosition('Chick Fil A','Team Member','cook/bread chicken')
 
 function displaySkill(name,coolSkill){
     if(coolSkill === true){
         console.log(`check it: ${name}`)
     }else {
-        console.log(`* ${Skill}`)
+        console.log(`* ${name}`)
     }
 }
     console.log(`My Skills:`)
 
-    displaySkill(`playing pool`, true);
-    displaySkill(`swimming`,false)
+    displaySkill(`playing pool`);
+    displaySkill(`video games`);
+    displaySkill('playing trombone',true);
